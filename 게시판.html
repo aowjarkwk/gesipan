@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>게시판</title>
+    <style>
+        body{
+            width: 1000px;
+            margin:0 auto;
+        }
+        .wrap{
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid black;
+        }
+        .제목{
+            width: 500px;
+            text-overflow: ellipsis; /* 생략 처리 ( ... )*/ 
+            white-space: nowrap; /* 줄바꿈 하지 않고 잘림*/ 
+            overflow: hidden;
+        }
+        .writer{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+
+        }
+        .글번호{
+            text-align: center;
+        }
+        .제목{
+            text-align: center;
+        }
+        .writer{
+        text-align: center;
+        }
+            .추천{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+
+
+        
+        
+    </style>
+    
+    </head>
+    
+    <body>
+        <div class="wrap">
+        <div class="글번호">
+            <div>번호</div>
+            <div>4</div>
+            <div>3</div>
+            <div>2</div>
+            <div>1</div>
+        </div>
+        <div class="제목">
+            <div>제목</div>
+            <div>아 오늘 뭐먹냐</div>
+            <div>피파잘하고싶다</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum saepe doloremque quis quae doloribus tempore velit excepturi distinctio odio error, aperiam eveniet aspernatur ipsum assumenda placeat deserunt cum? Accusamus, vitae?</div>
+            <div>하 인생..</div>
+        </div>
+        <div class="writer">
+            <div id="글쓴이">글쓴이</div>
+            <div>
+            <div>아후라기</div>
+            <div>티모충</div>
+            <div>박지성</div>
+            <div>문병준</div>
+        </div>
+        </div>
+        <div class="작성일">
+            <div>작성일</div>
+            <div>05.29</div>
+            <div>04.19</div>
+            <div>03.22</div>
+            <div>01.17</div>
+        </div>
+        <div class="추천">
+            <div>추천</div>
+            <div>0</div>
+            <div>0</div>
+            <div>0</div>
+            <div>0</div>
+        </div>
+    
+        </div>
+    </body>
+    
+    </html>
